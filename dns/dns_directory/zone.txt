@@ -1,0 +1,12 @@
+$TTL 4
+@       IN SOA  ns1.sample.com. root.sample.com. (
+                                        10      ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+
+; DNS Server
+sample.com.            IN  NS      ns1.sample.com.
+ns1.sample.com.        IN  A       192.168.10.10
+
