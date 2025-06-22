@@ -2,3 +2,4 @@
  - vm auto environment -> /environment
  - disk auto partitioning -> /disk
  - dns auto configuration -> /dns
+ - ha proxy configuration -> /lb
